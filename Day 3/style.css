@@ -1,0 +1,26 @@
+html, body {
+    height: 100%;
+    width: 100%;
+    font-size: 30px;
+}
+.exp{
+    display: flex;
+    flex-direction: row;
+}
+.exp div{
+    height: 300px;
+    width: 300px;
+    cursor: pointer;
+}
+#red{
+    background-color: red;
+}
+#green{
+    background-color: green;
+}
+#blue{
+    background-color: blue;
+}
+#result{
+    margin-top: 20px;
+}
