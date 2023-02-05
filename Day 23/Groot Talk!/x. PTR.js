@@ -1,0 +1,1 @@
+// addEventListener("when to listen (eg: click, type)", what to do after it listens (function));
