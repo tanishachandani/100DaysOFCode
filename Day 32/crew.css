@@ -1,0 +1,44 @@
+body{
+    background-image: url(image/crew-bg.jpg);
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    overflow-y: hidden;
+}
+.spark-nav{
+    position: absolute;
+    left: 55px;
+    top: 64px;
+}
+.line{
+    position: absolute;
+    width: 473px;
+    height: 1px;
+    left: 167px;
+    top: 88px;
+    z-index: 1;
+    background: #FFFFFF;
+    mix-blend-mode: normal;
+    opacity: 0.25;
+}
+.nav{
+    order: 1;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: absolute;
+    width: 830px;
+    height: 96px;
+    left: 610px;
+    top: 40px;
+    color: white;
+    background: rgba(255, 255, 255, 0.04);
+    backdrop-filter: blur(40.7742px);
+}
+a{
+    font-family: 'Barlow Condensed';
+    color: white;
+    margin: 0px 50px;
+    font-size: 22px;
+}
