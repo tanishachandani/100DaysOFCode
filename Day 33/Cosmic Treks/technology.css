@@ -1,0 +1,166 @@
+body{
+    background-image: url(image/technology-bg.jpg);
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    overflow-y: hidden;
+}
+.spark-nav{
+    position: absolute;
+    left: 55px;
+    top: 64px;
+}
+.line{
+    position: absolute;
+    width: 473px;
+    height: 1px;
+    left: 167px;
+    top: 88px;
+    z-index: 1;
+    background: #FFFFFF;
+    mix-blend-mode: normal;
+    opacity: 0.25;
+}
+.nav{
+    order: 1;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: absolute;
+    width: 830px;
+    height: 96px;
+    left: 610px;
+    top: 40px;
+    color: white;
+    background: rgba(255, 255, 255, 0.04);
+    backdrop-filter: blur(40.7742px);
+}
+a{
+    font-family: 'Barlow Condensed';
+    color: white;
+    margin: 0px 50px;
+    font-size: 22px;
+}
+.nav-line{
+    position: relative;
+    width: 120.680px;
+    height: 4px;
+    left: 1252px;
+    top: 122px;
+    z-index: 1;
+    background: #ffffff;
+}
+.bottom{
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    top: 200px;
+    left: 130px;
+}
+.left{
+    order: 1;
+    display: flex;
+    flex-direction: column;
+    margin-left: 90px; 
+}
+#space-launch-text{
+    margin-bottom: 50px;
+    height: 34px;
+    font-family: 'Barlow Condensed';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 34px;
+    letter-spacing: 4.725px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+#space-launch-text span{
+    font-weight: 700;
+    mix-blend-mode: normal;
+    opacity: 0.25;
+}
+.num-des{
+    display: flex;
+    flex-direction: row;
+    margin-top: 90px;
+}
+#num-nav{
+    order: 1;
+    display: flex;
+    flex-direction: column;
+    margin-right: 100px;
+}
+#num-nav div{
+    color: white;
+    border-color: #FFFFFF;
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 50%;
+    width: 70px;
+    height: 70px;
+    margin-bottom: 35px;
+    cursor: pointer;
+}
+#num-nav div:hover{
+    background-color: white;
+    color: black;
+    font-weight: bold;
+}
+#num-nav span{
+    font-size: 25px;
+    position: absolute;
+    padding: 20px 30px 20px 30px;
+}
+#des{
+    display: flex;
+    flex-direction: column;
+    order: 2;
+    width: 470px;
+    height: 303px;
+}
+#term{
+    margin-top: 3px;
+    margin-bottom: 15px;
+    /* position: absolute; */
+    height: 19px;
+    font-family: 'Barlow Condensed';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 2.7px;
+    color: #D0D6F9;
+}
+#tool{
+    /* position: absolute; */
+    height: 64px;
+    font-family: 'Bellefair';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 54px;
+    line-height: 64px;
+    color: #FFFFFF;
+    margin-bottom: 20px;
+}
+#tool-description{
+    font-family: 'Barlow';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 32px;
+    color: #D0D6F9;
+}
+.right{
+    order: 2;
+    margin-left: 65px;
+}
+#tool-image{
+    border-radius: 20px;
+}
+.nav a:hover{
+    transition-duration: 0.25s;
+    z-index: -1;
+    font-size: 27px;
+}
