@@ -1,0 +1,15 @@
+{
+  "name": "basics-of-node",
+  "version": "1.0.0",
+  "description": "This is a simple project wherein I learn the fundamentals of node.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Tanisha",
+  "license": "ISC",
+  "dependencies": {
+    "marions-funny-cat-videos": "^1.0.2",
+    "superhero-name-library": "^1.2.2"
+  }
+}
