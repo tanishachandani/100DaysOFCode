@@ -1,0 +1,16 @@
+body {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: black;
+  color: wheat;
+  overflow: hidden;
+}
+img {
+  max-width: 35rem;
+  min-height: 35rem;
+}
+div {
+  margin-left: 2rem;
+  margin-right: 2rem;
+}
