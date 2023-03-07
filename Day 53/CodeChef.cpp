@@ -128,3 +128,32 @@ int main() {
 	}
 	return 0;
 }
+
+
+// Q: https://www.codechef.com/problems/BETDEAL
+#include <iostream>
+using namespace std;
+
+int main() {
+	int T;
+	cin>>T;
+	while(T--){
+	    int A,B;
+	    cin>>A>>B;
+	    
+	    int a = 100-A;
+	    int b = 200-(B*2);
+	    
+	    if (a>b){
+	        cout<<"SECOND"<<endl;
+	    }
+	    else if (a==b){
+	        cout<<"BOTH"<<endl;
+	    }
+	    else{
+	        cout<<"FIRST"<<endl;
+	    }
+	    
+	}
+	return 0;
+}
