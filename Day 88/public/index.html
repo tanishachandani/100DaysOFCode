@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Chat Cave</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="webapp">
+      <h2>Chat Cave</h2>
+
+      <div class="join-user">
+        <div><label for="join-user">Username</label></div>
+        <div><input type="text" id="username" /></div>
+        <form action="">
+          <button type="button">Enter the cave!</button>
+        </form>
+      </div>
+
+      <div class="chat-screen">
+        <div class="header">
+          <div class="logo">Chat Cave</div>
+          <button id="exit-button">Exit Cave</button>
+        </div>
+        <div class="messages">
+          <!-- Dummy messages -->
+          <div class="my-messages">
+            <div class="name">You</div>
+            <div class="message">Helu</div>
+          </div>
+          <div class="notif">xyz joined the conversation!</div>
+          <div class="others-messages">
+            <div class="name">Sans</div>
+            <div class="message">What's up?</div>
+          </div>
+        </div>
+        <div class="input-box">
+          <input type="text" id="input-message" placeholder="Type something" />
+          <button id="send-message">Send</button>
+        </div>
+      </div>
+    </div>
+    <script src="socket.io/socket.io.js"></script>
+    <script src="index.js"></script>
+  </body>
+</html>
